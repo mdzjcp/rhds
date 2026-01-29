@@ -1,0 +1,7 @@
+name: rhds
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.5.2
+
+prefix: "/users/home/user26/miniforge3/envs/rhds"
