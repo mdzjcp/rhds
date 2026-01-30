@@ -1,0 +1,5 @@
+/.quarto/
+**/*.quarto_ipynb
+config.env
+/analysis_cache/
+/analysis_files/
