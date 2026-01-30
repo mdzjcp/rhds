@@ -10,8 +10,12 @@ install.packages(c(
     "ggrepel",
     "readxl",
     "here",
-    "rmarkdown"
+    "rmarkdown",
+    "IRkernel"
 ))
 
 # Install specific version of meffonym package from GitHub
 remotes::install_github("perishky/meffonym@9faface")
+
+# Register R kernel with Jupyter
+IRkernel::installspec(name = "rhds_r", displayname = "R (rhds)")
